@@ -1,0 +1,13 @@
+9
+root home docs pics notes.txt resume.pdf photo.jpg usr bin
+8
+root home
+root usr
+home docs
+home pics
+docs notes.txt
+docs resume.pdf
+pics photo.jpg
+usr bin
+root
+resume.pdf

@@ -1,0 +1,23 @@
+Enter number of files/directories: Enter names (no spaces):
+Enter number of connections: Enter each connection as: parent child
+
+Adjacency Matrix:
+            0   1   2   3   4   5   6   7   8   
+0  root     0   1   0   0   0   0   0   1   0   
+1  home     0   0   1   1   0   0   0   0   0   
+2  docs     0   0   0   0   1   1   0   0   0   
+3  pics     0   0   0   0   0   0   1   0   0   
+4  notes.txt0   0   0   0   0   0   0   0   0   
+5  resume.pdf0   0   0   0   0   0   0   0   0   
+6  photo.jpg0   0   0   0   0   0   0   0   0   
+7  usr      0   0   0   0   0   0   0   0   1   
+8  bin      0   0   0   0   0   0   0   0   0   
+
+Enter starting node: Enter file to search: 
+--- BFS ---
+BFS traversal: root home usr docs pics bin notes.txt resume.pdf 
+Result: resume.pdf FOUND using BFS
+
+--- DFS ---
+DFS traversal: root home docs notes.txt resume.pdf 
+Result: resume.pdf FOUND using DFS
